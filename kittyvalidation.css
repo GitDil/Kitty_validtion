@@ -1,0 +1,87 @@
+body{
+    background-image: url("./pitures/sunset.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    width:100%;
+}   
+    
+.formdiv{
+    margin-top: 150px;
+    margin:auto;
+    width:400px;
+    height:550px;
+    align-items: center;
+
+    /*glass effect*/
+    background: rgba(255,255,255,0.20);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(3.8px);
+    -webkit-backdrop-filter: blur(3.8px);
+    border: 1px solid rgba(255, 255, 255, 0.51);
+}
+
+.imagediv{
+    padding:15px;
+
+}
+
+.kitty{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 60%;
+    height:150px;
+}
+.inputdiv{
+    margin-top: -300px;
+    text-align: center;
+}
+
+input{
+    width:250px;
+    height:30px;
+    border-radius: 20px;
+    background-color: #f0f0f0;
+
+
+    /*Glass Effect*/
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.51);
+    background: rgba(255, 255, 255, 0.31);
+    border-radius: 4px;
+    backdrop-filter: blur(7.3px);
+    -webkit-backdrop-filter: blur(7.3px);
+    border: 1px solid rgba(255, 255, 255, 0.82);
+}
+
+.btndiv{
+    
+    width: 250px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    
+}
+
+
+.btn{
+    position: relative;
+    left: 0px;
+    width: 100px;
+    height: 30px;
+    display: block;
+    background-color: aqua;
+    color: rgb(221, 132, 132);
+    border: none;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+
+    transition:0.1s;
+}
+
+.move{
+    width:100px;
+    left:150px;
+    transition: 0.1s;
+}
